@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.ix4test" name="My Test Repo" version="0.0.3" provider-name="iX4">
+<addon id="repository.ix4test" name=".[COLOR red].iX4 [/COLOR][COLOR white] TestRepo [/COLOR]" version="0.0.4" provider-name="iX4">
 	<extension point="xbmc.addon.repository" name="iX4 Test Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/kodil/kodil/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
+		</dir>
+
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
