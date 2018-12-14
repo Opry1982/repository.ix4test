@@ -1,5 +1,8 @@
-#!/bin/bash
+#!/bin/bash -x
+cd /home/alpha/repository.ix4test
+git pull
 python _repo_xml_generator.py
-git add .
-git commit -m "x"
-git push
+sleep 7
+git add *
+git commit -a -m "Up'd on : `date`"
+git push 
