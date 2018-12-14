@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.ix4.test" name="My Test Add-on" version="0.0.1" provider-name="iX4">
+<addon id="plugin.video.ix4.test" name="iX4 Test Add-on" version="0.0.2" provider-name="iX4">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
