@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Drakon" version="1.0.0" name="Drakon Repository" provider-name="Drakon">
+    <extension point="xbmc.addon.repository" name="Drakon Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
+        <info compressed="false">https://addoncloud.org/drakon/repo/addons.xml</info>
+        <checksum>https://addoncloud.org/drakon/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://addoncloud.org/drakon/repo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Drakon Repository</summary>
+        <description lang="en">Drakon Repository</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
