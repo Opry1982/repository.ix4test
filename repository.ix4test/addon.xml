@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.ix4test" name=".[COLOR red].iX4 [/COLOR][COLOR white] TestRepo [/COLOR]" version="1.0.1" provider-name="iX4">
+<addon id="repository.ix4test" name=".[COLOR red].iX4 [/COLOR][COLOR white] TestRepo [/COLOR]" version="1.0.2" provider-name="iX4">
 	<extension point="xbmc.addon.repository" name="iX4 Test Repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
